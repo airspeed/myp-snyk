@@ -55,7 +55,7 @@ PODS:
     - Braintree/Core
   - CircleColorPicker (1.2.0)
   - Cosmos (13.0.0)
-  - CreditCardForm (0.1.5)
+  - CreditCardForm (0.1.7)
   - FBSDKCoreKit (4.29.0):
     - Bolts (~> 1.7)
   - FBSDKLoginKit (4.29.0):
@@ -205,7 +205,7 @@ SPEC CHECKSUMS:
   Braintree: 424a8b0bf1d31fe1110035cfde438701e1425c1a
   CircleColorPicker: 079756ecfb9a8caa30ce2b60ec0e625a2293c3fc
   Cosmos: af3973becc045af335b64498c9812034876b7661
-  CreditCardForm: 9ae830341997229abb0e284e66f301f834afe942
+  CreditCardForm: 66f0ce5a12182000a457d56f5630049efd3432df
   FBSDKCoreKit: 6f139173dc63a1deaff4430a55f2fe5bb222d2af
   FBSDKLoginKit: 56a057ca6822535ea0faa25f57a7c41edb697fd4
   Firebase: 710decbbc6d9d48530e9a5dba3209740c3532e05
