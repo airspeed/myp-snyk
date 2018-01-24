@@ -60,25 +60,25 @@ PODS:
     - Bolts (~> 1.7)
   - FBSDKLoginKit (4.29.0):
     - FBSDKCoreKit
-  - Firebase (4.8.0):
-    - Firebase/Core (= 4.8.0)
-  - Firebase/Core (4.8.0):
-    - FirebaseAnalytics (= 4.0.5)
-    - FirebaseCore (= 4.0.13)
-  - Firebase/DynamicLinks (4.8.0):
+  - Firebase (4.8.1):
+    - Firebase/Core (= 4.8.1)
+  - Firebase/Core (4.8.1):
+    - FirebaseAnalytics (= 4.0.7)
+    - FirebaseCore (= 4.0.14)
+  - Firebase/DynamicLinks (4.8.1):
     - Firebase/Core
-    - FirebaseDynamicLinks (= 2.3.1)
-  - Firebase/Messaging (4.8.0):
+    - FirebaseDynamicLinks (= 2.3.2)
+  - Firebase/Messaging (4.8.1):
     - Firebase/Core
     - FirebaseMessaging (= 2.0.8)
-  - FirebaseAnalytics (4.0.5):
+  - FirebaseAnalytics (4.0.7):
     - FirebaseCore (~> 4.0)
     - FirebaseInstanceID (~> 2.0)
     - GoogleToolboxForMac/NSData+zlib (~> 2.1)
     - nanopb (~> 0.3)
-  - FirebaseCore (4.0.13):
+  - FirebaseCore (4.0.14):
     - GoogleToolboxForMac/NSData+zlib (~> 2.1)
-  - FirebaseDynamicLinks (2.3.1):
+  - FirebaseDynamicLinks (2.3.2):
     - FirebaseAnalytics (~> 4.0)
   - FirebaseInstanceID (2.0.8):
     - FirebaseCore (~> 4.0)
@@ -133,7 +133,7 @@ PODS:
   - RxTest (4.1.1):
     - RxSwift (~> 4.0)
   - SkyFloatingLabelTextField (3.4.0)
-  - Stripe (11.5.0)
+  - Stripe (12.0.0)
   - SwiftLint (0.24.2)
   - SwiftMessages (4.1.0)
   - SwiftyDropbox (4.3.0):
@@ -192,7 +192,7 @@ CHECKOUT OPTIONS:
     :commit: 9f21875ca19cf43fdd4ffde89dc1e6b7c6b08b2e
     :git: https://github.com/d4rkd3v1l/MoreCharacterSets.git
   UIColor_Hex_Swift:
-    :commit: 9f08e21ffda40c1e3b31a932de8e1a961571a318
+    :commit: 286b10a8a4a345d6350e978961e64eab33024943
     :git: https://github.com/yeahdongcn/UIColor-Hex-Swift.git
 
 SPEC CHECKSUMS:
@@ -208,10 +208,10 @@ SPEC CHECKSUMS:
   CreditCardForm: 66f0ce5a12182000a457d56f5630049efd3432df
   FBSDKCoreKit: 6f139173dc63a1deaff4430a55f2fe5bb222d2af
   FBSDKLoginKit: 56a057ca6822535ea0faa25f57a7c41edb697fd4
-  Firebase: 710decbbc6d9d48530e9a5dba3209740c3532e05
-  FirebaseAnalytics: 5b02a63ead2c3f0259cfc7f15e053e440587ecf8
-  FirebaseCore: 3c02ec652db3d03fdc8bc6d9154af3e20d64b6f5
-  FirebaseDynamicLinks: b708fbc1e9bd77c2d992812736b206820e283203
+  Firebase: 2721056b8885eef90233b03f37be64358d35d262
+  FirebaseAnalytics: 617afa8c26b57a0c3f11361b248bc9e17bfd8dfd
+  FirebaseCore: 2e0b98fb2d64ca8140136beff15772bdd14d2dd7
+  FirebaseDynamicLinks: 38b68641d24e78d0277a9205d988ce22875d5a25
   FirebaseInstanceID: 81df5805a08001e69138664bdd02c6719a9ac80f
   FirebaseMessaging: dfdcd307c2382290a1e297a81d0f18370f5b1bcd
   FSPagerView: 958aba39684e1573755ddcfcc29f7eebb8413cee
@@ -235,7 +235,7 @@ SPEC CHECKSUMS:
   RxSwiftExt: a9b9c8e94be009146707f9fcb16eaf3cc1f3910c
   RxTest: f934010a5b07ecd627cb70b38eb4baf0414591d2
   SkyFloatingLabelTextField: 703aa1420b697392b1e7dba25571180dde018477
-  Stripe: 10761682d20dc491c52287393c800db056c9748d
+  Stripe: c1c4828adf3e078fb08ff56cd93f410c54011c54
   SwiftLint: 2aa21b96c8d13396a051bc1cb659d2ce1e0075b0
   SwiftMessages: 1bacc783c8f10bdfdc57c14860cae8a1f1fa6591
   SwiftyDropbox: f70ff647c8ef4195e1314c8a894652f3ba3da526
