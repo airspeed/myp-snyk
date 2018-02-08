@@ -24,54 +24,54 @@ PODS:
   - AdyenCSE (1.1.1)
   - Alamofire (4.5.1)
   - Appsee (2.3.6)
-  - AppsFlyerFramework (4.8.2)
+  - AppsFlyerFramework (4.8.3)
   - Bolts (1.9.0):
     - Bolts/AppLinks (= 1.9.0)
     - Bolts/Tasks (= 1.9.0)
   - Bolts/AppLinks (1.9.0):
     - Bolts/Tasks
   - Bolts/Tasks (1.9.0)
-  - Braintree (4.10.0):
-    - Braintree/Card (= 4.10.0)
-    - Braintree/Core (= 4.10.0)
-    - Braintree/PayPal (= 4.10.0)
-    - Braintree/UI (= 4.10.0)
-  - Braintree/Card (4.10.0):
+  - Braintree (4.11.0):
+    - Braintree/Card (= 4.11.0)
+    - Braintree/Core (= 4.11.0)
+    - Braintree/PayPal (= 4.11.0)
+    - Braintree/UI (= 4.11.0)
+  - Braintree/Card (4.11.0):
     - Braintree/Core
-  - Braintree/Core (4.10.0)
-  - Braintree/PayPal (4.10.0):
+  - Braintree/Core (4.11.0)
+  - Braintree/PayPal (4.11.0):
     - Braintree/Core
     - Braintree/PayPalOneTouch
-  - Braintree/PayPalDataCollector (4.10.0):
+  - Braintree/PayPalDataCollector (4.11.0):
     - Braintree/Core
     - Braintree/PayPalUtils
-  - Braintree/PayPalOneTouch (4.10.0):
+  - Braintree/PayPalOneTouch (4.11.0):
     - Braintree/Core
     - Braintree/PayPalDataCollector
     - Braintree/PayPalUtils
-  - Braintree/PayPalUtils (4.10.0)
-  - Braintree/UI (4.10.0):
+  - Braintree/PayPalUtils (4.11.0)
+  - Braintree/UI (4.11.0):
     - Braintree/Card
     - Braintree/Core
   - CircleColorPicker (1.2.0)
   - Cosmos (13.0.0)
   - CreditCardForm (0.1.7)
-  - FBSDKCoreKit (4.29.0):
+  - FBSDKCoreKit (4.30.0):
     - Bolts (~> 1.7)
-  - FBSDKLoginKit (4.29.0):
+  - FBSDKLoginKit (4.30.0):
     - FBSDKCoreKit
-  - Firebase (4.8.1):
-    - Firebase/Core (= 4.8.1)
-  - Firebase/Core (4.8.1):
-    - FirebaseAnalytics (= 4.0.7)
+  - Firebase (4.8.2):
+    - Firebase/Core (= 4.8.2)
+  - Firebase/Core (4.8.2):
+    - FirebaseAnalytics (= 4.0.9)
     - FirebaseCore (= 4.0.14)
-  - Firebase/DynamicLinks (4.8.1):
+  - Firebase/DynamicLinks (4.8.2):
     - Firebase/Core
     - FirebaseDynamicLinks (= 2.3.2)
-  - Firebase/Messaging (4.8.1):
+  - Firebase/Messaging (4.8.2):
     - Firebase/Core
     - FirebaseMessaging (= 2.0.8)
-  - FirebaseAnalytics (4.0.7):
+  - FirebaseAnalytics (4.0.9):
     - FirebaseCore (~> 4.0)
     - FirebaseInstanceID (~> 2.0)
     - GoogleToolboxForMac/NSData+zlib (~> 2.1)
@@ -147,7 +147,7 @@ DEPENDENCIES:
   - Appsee
   - AppsFlyerFramework
   - Braintree
-  - CircleColorPicker
+  - CircleColorPicker (from `https://github.com/matthiasbuettner159/CircleColorPicker.git`, branch `adjustLinearPickerBackground`)
   - Cosmos
   - CreditCardForm
   - FBSDKCoreKit
@@ -182,10 +182,16 @@ DEPENDENCIES:
   - UIImageColors
 
 EXTERNAL SOURCES:
+  CircleColorPicker:
+    :branch: adjustLinearPickerBackground
+    :git: https://github.com/matthiasbuettner159/CircleColorPicker.git
   MoreCharacterSets:
     :git: https://github.com/d4rkd3v1l/MoreCharacterSets.git
 
 CHECKOUT OPTIONS:
+  CircleColorPicker:
+    :commit: 5be8aeca225abdc808b617b45383026843bb3fb7
+    :git: https://github.com/matthiasbuettner159/CircleColorPicker.git
   MoreCharacterSets:
     :commit: 9f21875ca19cf43fdd4ffde89dc1e6b7c6b08b2e
     :git: https://github.com/d4rkd3v1l/MoreCharacterSets.git
@@ -195,16 +201,16 @@ SPEC CHECKSUMS:
   AdyenCSE: c52eb5ef89bd98b8d0aa1214352fe026979ace1a
   Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
   Appsee: 8b3eab549f4701befe537cab4aefd175421f6328
-  AppsFlyerFramework: 0999f26d737ff456c7a5f9d7c912996ea5cd8cbe
+  AppsFlyerFramework: 243435778bedb337fbaf45cb29715b9796d94bdb
   Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
-  Braintree: 424a8b0bf1d31fe1110035cfde438701e1425c1a
-  CircleColorPicker: 079756ecfb9a8caa30ce2b60ec0e625a2293c3fc
+  Braintree: f52744f38d1f5f37f8719f7acee4e1d7a3acb758
+  CircleColorPicker: b2d355866b2690ab9491b39a97104fcfa4cb26ce
   Cosmos: af3973becc045af335b64498c9812034876b7661
   CreditCardForm: 66f0ce5a12182000a457d56f5630049efd3432df
-  FBSDKCoreKit: 6f139173dc63a1deaff4430a55f2fe5bb222d2af
-  FBSDKLoginKit: 56a057ca6822535ea0faa25f57a7c41edb697fd4
-  Firebase: 2721056b8885eef90233b03f37be64358d35d262
-  FirebaseAnalytics: 617afa8c26b57a0c3f11361b248bc9e17bfd8dfd
+  FBSDKCoreKit: 7c4bba2877781a131ab5d54c0a78c405d4307b62
+  FBSDKLoginKit: fe7a7e82373dc5daad92e1623219e86224ab1fb1
+  Firebase: 7d3b8cd837ad9fcd391657734c0d56dab8e9a5a3
+  FirebaseAnalytics: 388b630c15713f5dbf364071f5f3d6077fb52f4e
   FirebaseCore: 2e0b98fb2d64ca8140136beff15772bdd14d2dd7
   FirebaseDynamicLinks: 38b68641d24e78d0277a9205d988ce22875d5a25
   FirebaseInstanceID: 81df5805a08001e69138664bdd02c6719a9ac80f
@@ -238,6 +244,6 @@ SPEC CHECKSUMS:
   UIImageColors: 3ae0150e539342697808281a3975fe5dec2024ce
   URITemplate: ace0c4c46dcf8afe6e89b4060621852886b15c3b
 
-PODFILE CHECKSUM: 4046ed72b491b9238fde2d8ffe229e83a2df9594
+PODFILE CHECKSUM: da33e85c30aeb541bd83d637d03c00689b3b43d0
 
 COCOAPODS: 1.4.0
