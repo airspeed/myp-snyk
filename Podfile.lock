@@ -1,28 +1,27 @@
 PODS:
-  - Adyen (1.16.0):
-    - Adyen/Cards (= 1.16.0)
-    - Adyen/Core (= 1.16.0)
-    - Adyen/Ideal (= 1.16.0)
-    - Adyen/SEPADirectDebit (= 1.16.0)
-    - Adyen/UI (= 1.16.0)
-  - Adyen/Cards (1.16.0):
+  - Adyen (1.17.0):
+    - Adyen/Cards (= 1.17.0)
+    - Adyen/Core (= 1.17.0)
+    - Adyen/Ideal (= 1.17.0)
+    - Adyen/SEPADirectDebit (= 1.17.0)
+    - Adyen/UI (= 1.17.0)
+  - Adyen/Cards (1.17.0):
     - Adyen/Core
     - Adyen/CoreUI
     - AdyenCSE (~> 1.1)
-  - Adyen/Core (1.16.0)
-  - Adyen/CoreUI (1.16.0):
+  - Adyen/Core (1.17.0)
+  - Adyen/CoreUI (1.17.0):
     - Adyen/Core
-  - Adyen/Ideal (1.16.0):
-    - Adyen/Core
-    - Adyen/CoreUI
-  - Adyen/SEPADirectDebit (1.16.0):
+  - Adyen/Ideal (1.17.0):
     - Adyen/Core
     - Adyen/CoreUI
-  - Adyen/UI (1.16.0):
+  - Adyen/SEPADirectDebit (1.17.0):
+    - Adyen/Core
+    - Adyen/CoreUI
+  - Adyen/UI (1.17.0):
     - Adyen/Core
     - Adyen/CoreUI
   - AdyenCSE (1.1.1)
-  - Alamofire (4.5.1)
   - Appsee (2.3.6)
   - AppsFlyerFramework (4.8.3)
   - Bolts (1.9.0):
@@ -54,35 +53,35 @@ PODS:
     - Braintree/Card
     - Braintree/Core
   - CircleColorPicker (1.2.0)
-  - Cosmos (13.0.0)
+  - Cosmos (15.0.0)
   - CreditCardForm (0.1.7)
-  - FBSDKCoreKit (4.30.0):
+  - FBSDKCoreKit (4.31.0):
     - Bolts (~> 1.7)
-  - FBSDKLoginKit (4.30.0):
+  - FBSDKLoginKit (4.31.0):
     - FBSDKCoreKit
-  - Firebase (4.8.2):
-    - Firebase/Core (= 4.8.2)
-  - Firebase/Core (4.8.2):
+  - Firebase (4.9.0):
+    - Firebase/Core (= 4.9.0)
+  - Firebase/Core (4.9.0):
     - FirebaseAnalytics (= 4.0.9)
-    - FirebaseCore (= 4.0.14)
-  - Firebase/DynamicLinks (4.8.2):
+    - FirebaseCore (= 4.0.15)
+  - Firebase/DynamicLinks (4.9.0):
     - Firebase/Core
     - FirebaseDynamicLinks (= 2.3.2)
-  - Firebase/Messaging (4.8.2):
+  - Firebase/Messaging (4.9.0):
     - Firebase/Core
-    - FirebaseMessaging (= 2.0.8)
+    - FirebaseMessaging (= 2.1.0)
   - FirebaseAnalytics (4.0.9):
     - FirebaseCore (~> 4.0)
     - FirebaseInstanceID (~> 2.0)
     - GoogleToolboxForMac/NSData+zlib (~> 2.1)
     - nanopb (~> 0.3)
-  - FirebaseCore (4.0.14):
+  - FirebaseCore (4.0.15):
     - GoogleToolboxForMac/NSData+zlib (~> 2.1)
   - FirebaseDynamicLinks (2.3.2):
     - FirebaseAnalytics (~> 4.0)
-  - FirebaseInstanceID (2.0.8):
+  - FirebaseInstanceID (2.0.9):
     - FirebaseCore (~> 4.0)
-  - FirebaseMessaging (2.0.8):
+  - FirebaseMessaging (2.1.0):
     - FirebaseAnalytics (~> 4.0)
     - FirebaseCore (~> 4.0)
     - FirebaseInstanceID (~> 2.0)
@@ -108,7 +107,7 @@ PODS:
     - URITemplate (~> 2.0)
   - Mockingjay/XCTest (2.0.1):
     - Mockingjay/Core
-  - MoreCharacterSets (1.0.2)
+  - MoreCharacterSets (1.0.3)
   - nanopb (0.3.8):
     - nanopb/decode (= 0.3.8)
     - nanopb/encode (= 0.3.8)
@@ -118,26 +117,24 @@ PODS:
   - Protobuf (3.5.0)
   - ReachabilitySwift (4.1.0)
   - ReSwift (4.0.1)
-  - RxBlocking (4.1.1):
+  - RxBlocking (4.1.2):
     - RxSwift (~> 4.0)
-  - RxCocoa (4.1.1):
+  - RxCocoa (4.1.2):
     - RxSwift (~> 4.0)
   - RxGesture (1.2.1):
     - RxCocoa (~> 4.0)
     - RxSwift (~> 4.0)
-  - RxSwift (4.1.1)
-  - RxSwiftExt (3.1.0):
-    - RxSwiftExt/Core (= 3.1.0)
-  - RxSwiftExt/Core (3.1.0):
+  - RxSwift (4.1.2)
+  - RxSwiftExt (3.2.0):
+    - RxSwiftExt/Core (= 3.2.0)
+  - RxSwiftExt/Core (3.2.0):
     - RxSwift (~> 4.0)
-  - RxTest (4.1.1):
+  - RxTest (4.1.2):
     - RxSwift (~> 4.0)
   - SkyFloatingLabelTextField (3.4.0)
-  - Stripe (12.0.0)
-  - SwiftLint (0.24.2)
+  - Stripe (12.1.1)
+  - SwiftLint (0.25.0)
   - SwiftMessages (4.1.0)
-  - SwiftyDropbox (4.3.0):
-    - Alamofire (~> 4.5.0)
   - UIColor_Hex_Swift (4.0.1)
   - UIImageColors (2.0.0)
   - URITemplate (2.0.3)
@@ -163,7 +160,7 @@ DEPENDENCIES:
   - KeychainSwift
   - KlarnaCheckout
   - Mockingjay
-  - MoreCharacterSets (from `https://github.com/d4rkd3v1l/MoreCharacterSets.git`)
+  - MoreCharacterSets
   - ParallaxHeader
   - ReachabilitySwift
   - ReSwift
@@ -177,7 +174,6 @@ DEPENDENCIES:
   - Stripe
   - SwiftLint
   - SwiftMessages
-  - SwiftyDropbox
   - UIColor_Hex_Swift
   - UIImageColors
 
@@ -185,36 +181,30 @@ EXTERNAL SOURCES:
   CircleColorPicker:
     :branch: adjustLinearPickerBackground
     :git: https://github.com/matthiasbuettner159/CircleColorPicker.git
-  MoreCharacterSets:
-    :git: https://github.com/d4rkd3v1l/MoreCharacterSets.git
 
 CHECKOUT OPTIONS:
   CircleColorPicker:
     :commit: 5be8aeca225abdc808b617b45383026843bb3fb7
     :git: https://github.com/matthiasbuettner159/CircleColorPicker.git
-  MoreCharacterSets:
-    :commit: 9f21875ca19cf43fdd4ffde89dc1e6b7c6b08b2e
-    :git: https://github.com/d4rkd3v1l/MoreCharacterSets.git
 
 SPEC CHECKSUMS:
-  Adyen: 6687a139bf7e96cabc52f5cbf11dd77820dd8316
+  Adyen: 5e14a09b193e126a54bc9d5eed745601e33ba286
   AdyenCSE: c52eb5ef89bd98b8d0aa1214352fe026979ace1a
-  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
   Appsee: 8b3eab549f4701befe537cab4aefd175421f6328
   AppsFlyerFramework: 243435778bedb337fbaf45cb29715b9796d94bdb
   Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
   Braintree: f52744f38d1f5f37f8719f7acee4e1d7a3acb758
   CircleColorPicker: b2d355866b2690ab9491b39a97104fcfa4cb26ce
-  Cosmos: af3973becc045af335b64498c9812034876b7661
+  Cosmos: a6dbd3d0baa0cc8f51f8598f7508d5a09d0a9ade
   CreditCardForm: 66f0ce5a12182000a457d56f5630049efd3432df
-  FBSDKCoreKit: 7c4bba2877781a131ab5d54c0a78c405d4307b62
-  FBSDKLoginKit: fe7a7e82373dc5daad92e1623219e86224ab1fb1
-  Firebase: 7d3b8cd837ad9fcd391657734c0d56dab8e9a5a3
+  FBSDKCoreKit: 54db4c581123745d25a9f7c1608020b3aeabd118
+  FBSDKLoginKit: 95a252ddffd6919c0f132a02292f0824616d8709
+  Firebase: 632216af3ed7f31e3be34776947fdc7546cfb572
   FirebaseAnalytics: 388b630c15713f5dbf364071f5f3d6077fb52f4e
-  FirebaseCore: 2e0b98fb2d64ca8140136beff15772bdd14d2dd7
+  FirebaseCore: 3bd047463058fa6b5d312c97502c52e45401cdfb
   FirebaseDynamicLinks: 38b68641d24e78d0277a9205d988ce22875d5a25
-  FirebaseInstanceID: 81df5805a08001e69138664bdd02c6719a9ac80f
-  FirebaseMessaging: dfdcd307c2382290a1e297a81d0f18370f5b1bcd
+  FirebaseInstanceID: d2058a35e9bebda1b6dd42486b84917bde552a9d
+  FirebaseMessaging: 2bafab2d0f3ab3dfd753101c2c32995c2051b5da
   FSPagerView: 958aba39684e1573755ddcfcc29f7eebb8413cee
   GoogleAnalytics: f42cc53a87a51fe94334821868d9c8481ff47a7b
   GoogleIDFASupport: aaf8c10bd429abb1c15349d5252244f5eda8ead1
@@ -223,27 +213,26 @@ SPEC CHECKSUMS:
   KeychainSwift: f9f7910449a0c0fd2cabc889121530dd2c477c33
   KlarnaCheckout: 6e3ac15ad6c3f353e8dfa174862199153b548700
   Mockingjay: 11a621880d2887f1775bdcf824341eb68f218450
-  MoreCharacterSets: 0b61fecd3781e9c2b7c1a190469a90d2f50ce21d
+  MoreCharacterSets: ccb891d1e83900ee58432b6ace1b7ea73e87804a
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
   ParallaxHeader: fb6ee97915626454f3c029a97b424f79a777c642
   Protobuf: 8a9838fba8dae3389230e1b7f8c104aa32389c03
   ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
   ReSwift: f4012c613e13da7398827fe5aebdb938eaed40a3
-  RxBlocking: 22e7d7b86a1c0c42164a30d64f56f97128b4ffab
-  RxCocoa: fd0862fd2df95fa55562ad28ffd2522c25eb4a85
+  RxBlocking: f6054985901412fc8c02daa84e92d4ba68c61389
+  RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
   RxGesture: c278eb05b187abd47e11e65464ae4de53ab71d95
-  RxSwift: c6e3b1c7b325c7d121cd4327e9d98b7ed746b570
-  RxSwiftExt: a9b9c8e94be009146707f9fcb16eaf3cc1f3910c
-  RxTest: f934010a5b07ecd627cb70b38eb4baf0414591d2
+  RxSwift: e49536837d9901277638493ea537394d4b55f570
+  RxSwiftExt: 64b7140124629a6a084159735f3714f0fb1c61d6
+  RxTest: e634f15fd2c2cd0e0120132ef7a4f7be69ad0393
   SkyFloatingLabelTextField: 703aa1420b697392b1e7dba25571180dde018477
-  Stripe: c1c4828adf3e078fb08ff56cd93f410c54011c54
-  SwiftLint: 2aa21b96c8d13396a051bc1cb659d2ce1e0075b0
+  Stripe: f8e8feff38ba5caf7b2568c64eab96b0440ecb95
+  SwiftLint: e14651157288e9e01d6e1a71db7014fb5744a8ea
   SwiftMessages: 1bacc783c8f10bdfdc57c14860cae8a1f1fa6591
-  SwiftyDropbox: f70ff647c8ef4195e1314c8a894652f3ba3da526
   UIColor_Hex_Swift: c5ff88470499383b8fd85302d59344bb24ba9436
   UIImageColors: 3ae0150e539342697808281a3975fe5dec2024ce
   URITemplate: ace0c4c46dcf8afe6e89b4060621852886b15c3b
 
-PODFILE CHECKSUM: da33e85c30aeb541bd83d637d03c00689b3b43d0
+PODFILE CHECKSUM: e5422d149df643aa2c28ebb6561b5b91c833b8c8
 
 COCOAPODS: 1.4.0
